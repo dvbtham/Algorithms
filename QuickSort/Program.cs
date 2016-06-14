@@ -8,6 +8,7 @@ namespace QuickSort
 {
     class Program
     {
+        //Hàm chia mảng
         static public int Partition(int[] numbers, int left, int right)
         {
             int pivot = numbers[left];
@@ -31,7 +32,7 @@ namespace QuickSort
                 }
             }
         }
-
+       //Đệ quy
         static public void QuickSort_Recursive(int[] arr, int left, int right)
         {
             // For Recusrion
